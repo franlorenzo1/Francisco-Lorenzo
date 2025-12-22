@@ -63,17 +63,6 @@ export default function Hero() {
 
         <div>
           <a 
-            href="https://wa.me/+542613891594" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="
-            inline-flex items-center 
-            m-4 
-            drop-shadow-[0_0_10px_#25D366]
-            transition transition-duration-200 hover:scale-120 ">
-              <WhatsAppIcon sx={{ fontSize: 30, color: '#25D366' }} />
-          </a>
-          <a 
             href="https://www.linkedin.com/in/franciscolorenzoo/"
             target='_blank'
             className="
@@ -92,6 +81,17 @@ export default function Hero() {
             drop-shadow-[0_0_10px_#FFFFFF]
             transition transition-duration-200 hover:scale-120 ">
               <GitHubIcon sx={{ fontSize: 30, color: '#FFFFFF' }} />
+          </a>
+          <a 
+            href="https://wa.me/+542613891594" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="
+            inline-flex items-center 
+            m-4 
+            drop-shadow-[0_0_10px_#25D366]
+            transition transition-duration-200 hover:scale-120 ">
+              <WhatsAppIcon sx={{ fontSize: 30, color: '#25D366' }} />
           </a>
         </div>
 

@@ -6,8 +6,8 @@ export default function Projects() {
       titulo: "Fran.dev",
       descripcion: "Mi portfolio personal hecho con React y Tailwind CSS.",
       img: "/fran.dev.png",
-      github: "https://github.com/franlorenzo1",
-      link: "https://franlorenzo1.vercel.app",
+      github: "https://github.com/franlorenzo1/Francisco-Lorenzo",
+      link: "francisco-lorenzo.vercel.app",
     },
     
    
