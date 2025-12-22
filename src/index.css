@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+html, body, #root { 
+  height: 100%; 
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+  margin: 0; 
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto; 
+}
+
+
+{/*NEON*/}
+@theme  {
+  --color-nPink: #ff0000;
+  --color-rPlum: #ff0054;
+  --color-sAqua: #4cc9f0;
+  --color-mViolet: #1c0118;
+  --color-petalF: #31081f;
+}
+
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: scale(0.96); }
+}
+
+@keyframes overlayIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes overlayOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.animate-fade-in { animation: fadeIn 200ms ease-out forwards; }
+.animate-fade-out { animation: fadeOut 200ms ease-in forwards; }
+.animate-overlay-in { animation: overlayIn 200ms ease-out forwards; }
+.animate-overlay-out { animation: overlayOut 200ms ease-in forwards; }
+
