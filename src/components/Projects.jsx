@@ -9,6 +9,12 @@ export default function Projects() {
       github: "https://github.com/franlorenzo1/Francisco-Lorenzo",
       link: "https://francisco-lorenzo.vercel.app/",
     },
+    {
+      titulo: "CiberSeguridad",
+      descripcion: "Proyectos de ciberseguridad",
+      img:  "",
+      github: "https://github.com/franlorenzo1/CyberSeguridad",
+    }
     
    
   ];
