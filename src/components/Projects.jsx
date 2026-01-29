@@ -12,7 +12,7 @@ export default function Projects() {
     {
       titulo: "CiberSeguridad",
       descripcion: "Proyectos de ciberseguridad",
-      img:  "",
+      img:  "/ciberseguridad.png",
       github: "https://github.com/franlorenzo1/CyberSeguridad",
     }
     
