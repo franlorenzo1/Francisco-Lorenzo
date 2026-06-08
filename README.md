@@ -1,16 +1,133 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# > FRANCISCO_LORENZO.PORTFOLIO
 
-Currently, two official plugins are available:
+### Front-End Developer | React Developer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Portfolio personal desarrollado para presentar mis proyectos, habilidades técnicas y experiencia como desarrollador web.
 
-## React Compiler
+[Demo Online](https://francisco-lorenzo.vercel.app/) • [LinkedIn](https://www.linkedin.com/in/franciscolorenzoo/) • [GitHub](https://github.com/franlorenzo1)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## $ whoami
+
+Soy Francisco Lorenzo, estudiante avanzado de la Tecnicatura Universitaria en Programación (UTN FRM) y desarrollador Front-End.
+
+Este portfolio fue creado con el objetivo de centralizar mis proyectos, tecnologías y medios de contacto en una experiencia moderna inspirada en terminales de desarrollo y estética cyberpunk.
+
+---
+
+## $ stack --list
+
+```bash
+Frontend:
+├── React
+├── JavaScript
+├── Tailwind CSS
+├── Material UI
+└── React Router
+
+Herramientas:
+├── Git
+├── GitHub
+├── Vercel
+└── VS Code
+```
+
+---
+
+## $ features
+
+- Diseño responsive
+- Estética inspirada en terminal Linux
+- Animaciones suaves
+- Sección de habilidades técnicas
+- Sección de habilidades blandas
+- Descarga directa de CV
+- Integración con LinkedIn, GitHub y WhatsApp
+- Deploy automático con Vercel
+
+---
+
+## $ tree src/
+
+```bash
+src
+├── components
+│   ├── About.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Navbar.jsx
+│   ├── Projects.jsx
+│   └── Skills.jsx
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## $ run-project
+
+### Clonar repositorio
+
+```bash
+git clone https://github.com/franlorenzo1/Francisco-Lorenzo.git
+```
+
+### Instalar dependencias
+
+```bash
+npm install
+```
+
+### Ejecutar entorno de desarrollo
+
+```bash
+npm run dev
+```
+
+### Generar build de producción
+
+```bash
+npm run build
+```
+
+---
+
+## $ screenshot
+
+<img src="./public/frandev.png" alt="Portfolio Preview"/>
+
+---
+
+
+
+## $ contact
+
+📧 **Email:** franciscopacolorenzo@gmail.com
+
+💼 **LinkedIn:**  
+https://www.linkedin.com/in/franciscolorenzoo/
+
+🐙 **GitHub:**  
+https://github.com/franlorenzo1
+
+📱 **WhatsApp:**  
+https://wa.me/542613891594
+
+---
+
+<div align="center">
+
+```bash
+> status
+
+Portfolio online ✔
+Disponible para oportunidades laborales ✔
+Aprendiendo constantemente ✔
+```
+
+</div>
