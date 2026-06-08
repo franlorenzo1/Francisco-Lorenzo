@@ -12,6 +12,7 @@ const softSkills = [
   'Adaptabilidad y flexibilidad',
   'Resolución de problemas',
   'Creatividad e innovación',
+  'Autoaprendizaje',
 ];
 
 export default function Skills() {
