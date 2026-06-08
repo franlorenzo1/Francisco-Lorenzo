@@ -19,19 +19,19 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center text-center px-4 sm:px-6 lg:px-12 py-20">
       <div className="max-w-3xl w-full">
-        
+
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold">
           <span className="text-nPink drop-shadow-[0_0_12px_#f72585]">
             Francisco Lorenzo
           </span>
         </h1>
 
-       
+
         <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl text-sAqua drop-shadow-[0_0_5px_#4cc9f0]">
-          Desarrollador Front-End
+          Tecnico Universitario en Programación
         </p>
 
-       
+
         <div className="
         flex flex-col 
         sm:flex-row 
@@ -54,11 +54,11 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="px-2 transition-transform duration-200 hover:scale-110">
               <SendIcon sx={{ fontSize: 20 }} />
-            </a>  
+            </a>
           </div>
         </div>
 
-       
+
         <div className="flex justify-center flex-wrap gap-6 mt-4">
           <a
             href="https://www.linkedin.com/in/franciscolorenzoo/"
@@ -81,7 +81,7 @@ export default function Hero() {
           </a>
         </div>
 
-       
+
         <div className="mt-8 flex justify-center">
           <a
             href="/Francisco Lorenzo 2026.pdf"

@@ -50,3 +50,22 @@ body {
 .animate-overlay-in { animation: overlayIn 200ms ease-out forwards; }
 .animate-overlay-out { animation: overlayOut 200ms ease-in forwards; }
 
+@keyframes typing {
+  from { width: 0; }
+  to { width: 32ch; }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #4cc9f0; }
+}
+.typewriter {
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: bottom;
+  border-right: 2px solid #4cc9f0;
+  animation: typing 2.2s steps(32, end) forwards,
+             blink-caret 0.75s step-end infinite;
+}
+
