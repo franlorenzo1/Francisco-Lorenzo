@@ -14,9 +14,9 @@ Portfolio personal desarrollado para presentar mis proyectos, habilidades técni
 
 ## $ whoami
 
-Soy Francisco Lorenzo, estudiante avanzado de la Tecnicatura Universitaria en Programación (UTN FRM) y desarrollador Front-End.
+Soy Francisco Lorenzo, egresado de la Tecnicatura Universitaria en Programación (UTN FRM) y desarrollador Front-End.
 
-Este portfolio fue creado con el objetivo de centralizar mis proyectos, tecnologías y medios de contacto en una experiencia moderna inspirada en terminales de desarrollo y estética cyberpunk.
+Este portfolio fue creado con el objetivo de centralizar mis proyectos, tecnologías y medios de contacto .
 
 ---
 
