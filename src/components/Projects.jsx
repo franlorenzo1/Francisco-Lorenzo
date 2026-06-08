@@ -9,6 +9,13 @@ export default function Projects() {
       github: "https://github.com/franlorenzo1/Francisco-Lorenzo",
       link: "https://francisco-lorenzo.vercel.app/",
     },
+    {
+      titulo: "Control-Personal",
+      descripcion: "Aplicación de escritorio para la gestión de tareas, hábitos y objetivos personales. Incluye estadísticas de progreso, planificación diaria y seguimiento de productividad en tiempo real.",
+      img: "/control-personal.png",
+      github: "https://github.com/franlorenzo1/control-personal",
+
+    },
 
 
 
