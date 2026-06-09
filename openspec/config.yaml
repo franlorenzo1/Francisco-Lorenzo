@@ -1,0 +1,6 @@
+schema: spec-driven
+
+context: |
+  Tech stack: JavaScript, React (v19), Vite, TailwindCSS (v4), Material UI (MUI), React Router DOM (v7)
+  Domain: Personal Portfolio Website
+  Hosting: Vercel
