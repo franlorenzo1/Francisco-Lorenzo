@@ -46,16 +46,16 @@ export default function About() {
         <div className="mt-10 md:mt-24 rounded-lg border border-sAqua/40 bg-petalF/60 shadow-[0_0_25px_rgba(76,201,240,0.2)] overflow-hidden">
           <TerminalHeader label="guest@portfolio:~" />
           <div className="p-5 text-sm leading-relaxed">
-            <p className="text-sAqua">
-              <span className="text-nPink">guest@portfolio</span>:~$ whoami
-            </p>
-            <p className="mt-1 mb-4 font-bold text-white typewriter">
-              FRONT-END_DEVELOPER
+            <p className="mt-1 mb-4 font-bold text-white ">
+              Tecnico Universitario en Programacion
             </p>
             <p className="text-mauveShoadow font-bold">
-              Desarrollador Web Front-End.
-              Habiendo completado el plan de estudios de mi tecnicatura, busco sumarme a un equipo tecnológico
-              donde aportar valor con mis conocimientos en React y seguir expandiendo mis habilidades.
+              ▹ Ubicación: Mendoza-Argentina
+              <br />
+              ▹ Disponibilidad: Full time/Remoto
+              <br />
+              ▹ Idiomas: Español (Nativo), Ingles (Intermedio)
+              <br />
             </p>
             <button
               onClick={handleOpen}
@@ -69,7 +69,7 @@ export default function About() {
                          hover:bg-nPink
                          transition duration-300
                          hover:drop-shadow-[0_0_10px_#f72585]">
-              $ cat sobre_mi.txt
+              sobre_mi.txt
             </button>
           </div>
         </div>
@@ -104,12 +104,10 @@ export default function About() {
               <TerminalHeader label="sobre_mi.txt" />
               <div className="p-5 text-sm leading-relaxed">
                 <p className="text-mauveShoadow">
-                  Egresado de la Tecnicatura Universitaria en Programación (UTN FRM), actualmente finalizando
-                  el proyecto de tesis final. Cuento con una sólida formación en lógica de programación, estructuras
-                  de datos y desarrollo web de componentes.
-                  <br /><br />
-                  Con la cursada concluida, dispongo de plena disponibilidad horaria para afrontar desafíos
-                  laborales e integrarme a proyectos de tiempo completo.
+                  Desarrollador Web Front-End.
+                  <br />
+                  Habiendo completado el plan de estudios de mi tecnicatura, busco sumarme a un equipo tecnológico
+                  donde aportar valor con mis conocimientos y seguir expandiendo mis habilidades.
                 </p>
 
                 <button

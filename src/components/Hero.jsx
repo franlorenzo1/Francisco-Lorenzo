@@ -21,14 +21,14 @@ export default function Hero() {
       <div className="max-w-3xl w-full">
 
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold">
-          <span className="text-nPink drop-shadow-[0_0_12px_#f72585]">
+          <span className="text-nPink">
             Francisco Lorenzo
           </span>
         </h1>
 
 
-        <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl text-sAqua drop-shadow-[0_0_5px_#4cc9f0]">
-          Tecnico Universitario en Programación
+        <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl text-sAqua font-mono typewriter-frontend">
+          Desarrollador Web Front-End
         </p>
 
 

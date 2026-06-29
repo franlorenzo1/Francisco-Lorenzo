@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="bg-mViolet text-white min-h-screen font-sans scroll-smooth">
+    <div className="bg-mViolet grid-bg text-white min-h-screen font-sans scroll-smooth">
       <Navbar />
       <main>
         <section id="hero">
