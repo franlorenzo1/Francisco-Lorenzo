@@ -47,8 +47,8 @@ body {
 
 .animate-fade-in { animation: fadeIn 200ms ease-out forwards; }
 .animate-fade-out { animation: fadeOut 200ms ease-in forwards; }
-.animate-overlay-in { animation: overlayIn 200ms ease-out forwards; }
-.animate-overlay-out { animation: overlayOut 200ms ease-in forwards; }
+.animate-overlay-in { will-change: opacity; animation: overlayIn 200ms ease-out forwards; }
+.animate-overlay-out { will-change: opacity; animation: overlayOut 200ms ease-in forwards; }
 
 @keyframes typing {
   from { width: 0; }
