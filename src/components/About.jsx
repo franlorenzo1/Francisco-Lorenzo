@@ -35,6 +35,7 @@ export default function About() {
                        md:flex-row
                        justify-center
                        items-center
+                       md:items-end
                        pt-7 px-1.5 mt-10
                        gap-3.5">
       <div className="max-w-md
@@ -43,7 +44,7 @@ export default function About() {
                     text-left
                     font-mono">
 
-        <div className="mt-10 md:mt-24 rounded-lg border border-sAqua/40 bg-petalF/60 shadow-[0_0_25px_rgba(76,201,240,0.2)] overflow-hidden">
+        <div className="rounded-lg border border-sAqua/40 bg-petalF/60 shadow-[0_0_25px_rgba(76,201,240,0.2)] overflow-hidden">
           <TerminalHeader label="guest@portfolio:~" />
           <div className="p-5 text-sm leading-relaxed">
             <p className="mt-1 mb-4 font-bold text-white ">

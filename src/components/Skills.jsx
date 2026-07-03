@@ -58,7 +58,7 @@ export default function Skills() {
             skill === 'Comunicación efectiva' ? (
               <li
                 key={skill}
-                className="border border-nPink rounded p-2 text-sm transition duration-300 hover:bg-nPink hover:text-white hover:drop-shadow-[0_0_10px_#f72585]"
+                className="flex items-center justify-center border border-nPink rounded p-2 text-sm transition duration-300 hover:bg-nPink hover:text-white hover:drop-shadow-[0_0_10px_#f72585]"
               >
                 [ COMUNICACIÓN
                 <br />
@@ -67,7 +67,7 @@ export default function Skills() {
             ) : (
               <li
                 key={skill}
-                className="border border-nPink rounded p-2 text-sm transition duration-300 hover:bg-nPink hover:text-white hover:drop-shadow-[0_0_10px_#f72585]"
+                className="flex items-center justify-center border border-nPink rounded p-2 text-sm transition duration-300 hover:bg-nPink hover:text-white hover:drop-shadow-[0_0_10px_#f72585]"
               >
                 [ {skill.toUpperCase()} ]
               </li>

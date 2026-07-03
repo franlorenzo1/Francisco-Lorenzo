@@ -3,18 +3,27 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import SendIcon from '@mui/icons-material/Send';
-import { useState } from "react";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import DownloadIcon from '@mui/icons-material/Download';
+import { useState, useEffect } from "react";
 
 export default function Hero() {
 
   const email = "franciscopacolorenzo@gmail.com";
   const [copied, setCopied] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email);
     setCopied(true);
     setTimeout(() => setCopied(false), 1000);
   };
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 40);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <section className="min-h-screen flex items-center justify-center text-center px-4 sm:px-6 lg:px-12 py-20">
@@ -49,7 +58,7 @@ export default function Hero() {
               <ContentCopyIcon sx={{ fontSize: 20 }} />
             </button>
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=franciscopacolorenzo@gmail.com"
+              href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrgCbGcxcfNNGJKZzNCmdHSvpzXWqJdsRQksxnQQQCJSbstHBXdqbgjGGgDVwtRsVHqrqq"
               target="_blank"
               rel="noopener noreferrer"
               className="px-2 transition-transform duration-200 hover:scale-110">
@@ -83,17 +92,33 @@ export default function Hero() {
 
 
         <div className="mt-8 flex justify-center">
-          <a
-            href="/Francisco Lorenzo 2026.pdf"
-            download="Francisco Lorenzo 2026.pdf"
-            className="
-            px-6 py-3 
-            rounded-lg 
-            font-bold 
-            text-white bg-rPlum hover:bg-nPink 
-            transition duration-300 hover:drop-shadow-[0_0_15px_#f72585]">
-            Mi CV ⬇️
-          </a>
+          <div className="relative inline-block">
+            <a
+              href="/Francisco Lorenzo 2026.pdf"
+              download="Francisco Lorenzo 2026.pdf"
+              className="
+              relative z-10 block
+              px-6 py-3
+              rounded-lg
+              font-bold
+              text-white bg-rPlum hover:bg-nPink
+              transition duration-300 hover:drop-shadow-[0_0_15px_#f72585]
+              flex items-center gap-2">
+              Mi CV
+              <DownloadIcon sx={{ fontSize: 20 }} />
+            </a>
+
+            <div
+              className={`
+                absolute top-full left-1/2 -translate-x-1/2 z-0
+                flex flex-col items-center gap-0.5 pt-2
+                text-sAqua font-mono text-xs tracking-widest
+                transition-all duration-500 ease-out
+                ${scrolled ? "-translate-y-full opacity-0 pointer-events-none" : "translate-y-0 opacity-100"}`}>
+              <span className="animate-bounce">scroll</span>
+              <KeyboardArrowDownIcon className="animate-bounce" sx={{ fontSize: 18 }} />
+            </div>
+          </div>
         </div>
       </div>
     </section>
