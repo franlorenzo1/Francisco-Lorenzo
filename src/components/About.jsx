@@ -107,8 +107,11 @@ export default function About() {
                 <p className="text-mauveShoadow">
                   Desarrollador Web Front-End.
                   <br />
-                  Habiendo completado el plan de estudios de mi tecnicatura, busco sumarme a un equipo tecnológico
-                  donde aportar valor con mis conocimientos y seguir expandiendo mis habilidades.
+                  Estudiante de la Tecnicatura Universitaria en Programación con sólida formación en
+                  desarrollo web Front-End. Experiencia práctica en el diseño e implementación de
+                  interfaces modernas, accesibles y responsivas utilizando React, HTML, CSS y
+                  Tailwind CSS. Interés orientado a la aplicación rigurosa de buenas prácticas de
+                  desarrollo en el ámbito académico y profesional.
                 </p>
 
                 <button
